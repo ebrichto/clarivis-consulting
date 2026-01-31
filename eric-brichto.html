@@ -41,15 +41,87 @@ gtag('config', 'G-FZP6SPKMK5');
 </script>
 
 <style>
-body{margin:0;font-family:Arial,Helvetica,sans-serif;color:#333;line-height:1.7}
-header{background:#143b66;color:#fff;padding:20px 40px;display:flex;align-items:center;justify-content:space-between}
-header img{height:60px}
-nav a{color:#fff;margin-left:20px;text-decoration:none;font-weight:bold}
-.hero{background:#143b66;color:#fff;padding:120px 40px;text-align:center}
-section{padding:80px 40px;max-width:1100px;margin:auto}
-h1,h2,h3{color:#143b66}
-footer{background:#143b66;color:#fff;text-align:center;padding:40px}
+body{
+  margin:0;
+  font-family:Arial,Helvetica,sans-serif;
+  color:#333;
+  line-height:1.7;
+}
+
+header{
+  background:#143b66;
+  color:#fff;
+  padding:20px 40px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+
+header img{
+  height:60px;
+}
+
+nav a{
+  color:#fff;
+  margin-left:20px;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+.hero{
+  background:#143b66;
+  color:#fff;
+  padding:120px 40px;
+  text-align:center;
+}
+
+section{
+  padding:80px 40px;
+  max-width:1200px;
+  margin:auto;
+}
+
+h1,h2,h3{
+  color:#143b66;
+}
+
+/* Added grid layout for services and cards */
+.services{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  gap:30px;
+}
+
+.card{
+  box-shadow:0 8px 20px rgba(0,0,0,0.15);
+  border-radius:8px;
+  overflow:hidden;
+}
+
+.card img{
+  width:100%;
+  height:220px;
+  object-fit:cover;
+}
+
+.card div{
+  padding:25px;
+}
+
+footer{
+  background:#143b66;
+  color:#fff;
+  text-align:center;
+  padding:40px;
+}
+
+a{
+  color:#143b66;
+  font-weight:bold;
+  text-decoration:none;
+}
 </style>
+
 </head>
 
 <body>
